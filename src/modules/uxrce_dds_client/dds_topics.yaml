@@ -17,6 +17,7 @@ publications:
   - topic: /fmu/out/battery_status
     type: px4_msgs::msg::BatteryStatus
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/collision_constraints
     type: px4_msgs::msg::CollisionConstraints
 
@@ -26,27 +27,32 @@ publications:
   - topic: /fmu/out/failsafe_flags
     type: px4_msgs::msg::FailsafeFlags
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/manual_control_setpoint
     type: px4_msgs::msg::ManualControlSetpoint
 
   - topic: /fmu/out/message_format_response
     type: px4_msgs::msg::MessageFormatResponse
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/position_setpoint_triplet
     type: px4_msgs::msg::PositionSetpointTriplet
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/sensor_combined
     type: px4_msgs::msg::SensorCombined
 
   - topic: /fmu/out/timesync_status
     type: px4_msgs::msg::TimesyncStatus
 
+# Use uORB FRD (NED)
   # - topic: /fmu/out/vehicle_angular_velocity
   #   type: px4_msgs::msg::VehicleAngularVelocity
 
   - topic: /fmu/out/vehicle_land_detected
     type: px4_msgs::msg::VehicleLandDetected
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/vehicle_attitude
     type: px4_msgs::msg::VehicleAttitude
 
@@ -62,9 +68,11 @@ publications:
   - topic: /fmu/out/vehicle_gps_position
     type: px4_msgs::msg::SensorGps
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/vehicle_local_position
     type: px4_msgs::msg::VehicleLocalPosition
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/vehicle_odometry
     type: px4_msgs::msg::VehicleOdometry
 
@@ -77,6 +85,7 @@ publications:
   - topic: /fmu/out/vtol_vehicle_status
     type: px4_msgs::msg::VtolVehicleStatus
 
+# Use uORB FRD (NED)
   - topic: /fmu/out/home_position
     type: px4_msgs::msg::HomePosition
 
@@ -106,6 +115,7 @@ subscriptions:
   - topic: /fmu/in/distance_sensor
     type: px4_msgs::msg::DistanceSensor
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/manual_control_input
     type: px4_msgs::msg::ManualControlSetpoint
 
@@ -121,24 +131,30 @@ subscriptions:
   - topic: /fmu/in/sensor_optical_flow
     type: px4_msgs::msg::SensorOpticalFlow
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/goto_setpoint
     type: px4_msgs::msg::GotoSetpoint
 
   - topic: /fmu/in/telemetry_status
     type: px4_msgs::msg::TelemetryStatus
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/trajectory_setpoint
     type: px4_msgs::msg::TrajectorySetpoint
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/vehicle_attitude_setpoint
     type: px4_msgs::msg::VehicleAttitudeSetpoint
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/vehicle_mocap_odometry
     type: px4_msgs::msg::VehicleOdometry
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/vehicle_rates_setpoint
     type: px4_msgs::msg::VehicleRatesSetpoint
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/vehicle_visual_odometry
     type: px4_msgs::msg::VehicleOdometry
 
@@ -148,9 +164,11 @@ subscriptions:
   - topic: /fmu/in/vehicle_command_mode_executor
     type: px4_msgs::msg::VehicleCommand
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/vehicle_thrust_setpoint
     type: px4_msgs::msg::VehicleThrustSetpoint
 
+# Use uORB FRD (NED)
   - topic: /fmu/in/vehicle_torque_setpoint
     type: px4_msgs::msg::VehicleTorqueSetpoint
 
